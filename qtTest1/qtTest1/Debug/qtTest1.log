@@ -1,0 +1,36 @@
+﻿生成启动时间为 12/22/2012 1:08:01 PM。
+     1>项目“D:\GitRepositories\zsjz_1516\qtTest1\qtTest1\qtTest1.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\GitRepositories\zsjz_1516\qtTest1\Win32\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\qtTest1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing qttest1.h...
+         Uic'ing qttest1.ui...
+         Rcc'ing qttest1.qrc...
+     1>RCC : warning : No resources in 'D:\GitRepositories\zsjz_1516\qtTest1\qtTest1\qttest1.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_qttest1.cpp main.cpp qttest1.cpp
+         moc_qttest1.cpp
+         main.cpp
+         qttest1.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.4\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.4\include\QtCore /IC:\Qt\4.8.4\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_qttest1.cpp
+         qrc_qttest1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitRepositories\zsjz_1516\qtTest1\Win32\Debug\\qtTest1.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.4\lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\qtTest1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\GitRepositories\zsjz_1516\qtTest1\Win32\Debug\qtTest1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitRepositories\zsjz_1516\qtTest1\Win32\Debug\qtTest1.lib" /MACHINE:X86 Debug\moc_qttest1.obj
+         Debug\qrc_qttest1.obj
+         Debug\main.obj
+         Debug\qttest1.obj
+         qtTest1.vcxproj -> D:\GitRepositories\zsjz_1516\qtTest1\Win32\Debug\qtTest1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\GitRepositories\zsjz_1516\qtTest1\Win32\Debug\\qtTest1.exe;#1" /manifest Debug\qtTest1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\qtTest1.unsuccessfulbuild”。
+         正在对“Debug\qtTest1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\GitRepositories\zsjz_1516\qtTest1\qtTest1\qtTest1.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.73
